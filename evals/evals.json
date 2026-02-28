@@ -1,0 +1,17 @@
+{
+  "skill_name": "market-research",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to research Oakville neighborhoods and schools — show me how school ratings correlate with home prices.",
+      "expected_output": "Two markdown reference docs (neighborhoods + schools) with 40+ sources, then a single interactive HTML report with Chart.js charts, Leaflet map, neighborhood cards, school comparison table, and correlation analysis. Oakville uses Halton DSB (not YRDSB) so the skill needs to adapt school board context.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Do a full neighborhood & school analysis for Richmond Hill, Ontario. I want to see which areas have the best value — good schools relative to price.",
+      "expected_output": "Two markdown reference docs with 40+ sources, then a single interactive HTML report. Richmond Hill shares YRDSB/YCDSB with Markham so there's overlapping school data — the skill should correctly scope to Richmond Hill schools only.",
+      "files": []
+    }
+  ]
+}

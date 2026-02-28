@@ -1,0 +1,17 @@
+{
+  "name": "market-research-plugin",
+  "version": "1.0.0",
+  "description": "Real estate market research plugin for Claude Code — produces interactive HTML reports with charts, maps, and data tables",
+  "owner": {
+    "name": "Sean",
+    "github": "SeanningTatum"
+  },
+  "plugins": [
+    {
+      "name": "market-research",
+      "description": "Real estate market research skill that produces comprehensive, data-driven neighborhood and school analysis reports with interactive HTML visualizations.",
+      "source": "./market-research",
+      "version": "1.0.0"
+    }
+  ]
+}
